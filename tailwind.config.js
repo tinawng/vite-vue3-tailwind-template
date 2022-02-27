@@ -8,6 +8,12 @@ module.exports = {
         sans: ['"Inter var"', ...defaultTheme.fontFamily.sans],
       },
     },
+    screens: {
+      'sm': '1024px',
+      'md': '1081px',
+      'lg': '1920px',
+      'xl': '2560px',
+    },
   },
   plugins: [],
 }
