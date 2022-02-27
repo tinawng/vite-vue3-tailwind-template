@@ -1,13 +1,4 @@
-@import "@/styles/card.postcss";
-
-@font-face {
-  font-family: 'Inter var';
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-  font-named-instance: 'Regular';
-  src: url('./font/Inter-roman.var.woff2') format('woff2');
-}
+@import "@/assets/styles/card.postcss";
 
 .highlight {
   @apply text-transparent;
@@ -22,4 +13,13 @@
   to {
     filter: hue-rotate(1turn);
   }
+}
+
+@font-face {
+  font-family: 'Inter var';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('@/assets/fonts/Inter-roman.var.woff2') format('woff2');
 }
