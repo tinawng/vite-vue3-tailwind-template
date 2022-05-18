@@ -4,8 +4,9 @@ module.exports = {
   content: ['./index.html', './src/**/*.{vue,js}'],
   theme: {
     extend: {
-      fontFamily: {
-        sans: ['"Inter var"', ...defaultTheme.fontFamily.sans],
+      fontSize: {
+        '2xs': '.65rem',
+        '3xs': '.6rem',
       },
     },
     screens: {
