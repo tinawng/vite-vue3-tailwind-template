@@ -1,6 +1,6 @@
 <template>
   <header class="bg-white shadow">
-    <sections-nav-bar />
+    <nav-bar />
   </header>
   <main>
     <router-view />
