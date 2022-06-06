@@ -7,10 +7,9 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "unplugin-vue-components": "^0.19.5",
-    "vue": "^3.2.33",
+    "unplugin-vue-components": "^0.19.6",
+    "vue": "^3.2.36",
     "vue-router": "^4.0.15",
-    "@types/tailwindcss": "^3.0.10",
     "@vitejs/plugin-vue": "^2.3.3",
     "autoprefixer": "^10.4.7",
     "prettier-plugin-tailwindcss": "^0.1.11",
